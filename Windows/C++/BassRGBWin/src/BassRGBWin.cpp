@@ -98,7 +98,6 @@ int main() {
 
                 // std::cout << "\rRaw: " << buffer[i] << "  Filtered: " << filteredSample << "     " << std::flush;
             }
-            std::cout << std::endl;
 
             hr = pCaptureClient->ReleaseBuffer(numFramesAvailable);
             if (FAILED(hr)) {
