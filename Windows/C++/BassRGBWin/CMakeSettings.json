@@ -1,0 +1,45 @@
+﻿{
+  "configurations": [
+    {
+      "buildCommandArgs": "",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "cmakeCommandArgs": "",
+      "configurationType": "RelWithDebInfo",
+      "ctestCommandArgs": "",
+      "generator": "Visual Studio 17 2022",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "installRoot": "${projectDir}\\install\\${name}",
+      "name": "x64-Release-FastCompile"
+    },
+    {
+      "buildCommandArgs": "",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "cmakeCommandArgs": "",
+      "configurationType": "RelWithDebInfo",
+      "ctestCommandArgs": "",
+      "generator": "Visual Studio 17 2022",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "installRoot": "${projectDir}\\install\\${name}",
+      "name": "x64-Release",
+      "variables": [
+        {
+          "name": "OPTIMIZE",
+          "value": "YES",
+          "type": "BOOL"
+        }
+      ]
+    },
+    {
+      "buildCommandArgs": "",
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "cmakeCommandArgs": "",
+      "configurationType": "Debug",
+      "ctestCommandArgs": "",
+      "generator": "Visual Studio 17 2022",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "installRoot": "${projectDir}\\install\\${name}",
+      "name": "x64-Debug",
+      "variables": []
+    }
+  ]
+}
